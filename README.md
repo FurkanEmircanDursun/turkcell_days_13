@@ -21,15 +21,11 @@ implementation 'androidx.sqlite:sqlite-ktx:2.2.0'
 
 
 ## Usage
-Upon launching the application, the main screen is displayed.
-Click on the "Add Note" button on the main screen to add a new note.
-Enter the title and details of the note, then click the "Save" button.
-The saved note titles will be listed on the main screen.
-Click on a note title to access its details.
+-Upon launching the application, the main screen is displayed.
+-Click on the "Add Note" button on the main screen to add a new note.
+-Enter the title and details of the note, then click the "Save" button.
+-The saved note titles will be listed on the main screen.
+-Click on a note title to access its details.
 
-## Contributing
-Clone this repository.
-Make the desired changes or add new features.
-Create a pull request explaining your changes.
-License
-This project is licensed under the MIT License.
+
+
