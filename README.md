@@ -1,5 +1,6 @@
 Kotlin SQLite Not Alma Uygulaması
 ---------------------------------
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Bu proje, Kotlin programlama dili ve SQLite veritabanını kullanarak basit bir not alma uygulamasını temsil etmektedir. Bu uygulama kullanıcının not eklemesini, notları görüntülemesini ve not başlıklarına tıklayarak ayrıntılarına erişmesini sağlar.
 
