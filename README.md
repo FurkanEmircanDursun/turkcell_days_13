@@ -1,29 +1,33 @@
-Kotlin SQLite Note Taking Application
-License
+# Kotlin SQLite Note Taking App
 
-This project represents a simple note-taking application using Kotlin programming language and SQLite database. This application allows users to add notes, view the list of notes, and access the details of a note by clicking on its title.
+This project represents a simple note-taking application using Kotlin programming language and SQLite database. This application allows users to add notes, view notes, and access the details of each note by clicking on their titles.
 
-Features
-Users can add and save notes.
-The titles of the saved notes are listed.
-When a user clicks on a note title, the details of that note are displayed.
-Installation
-Download or clone the project.
-Open Android Studio and import the project.
-Install the required dependencies and components.
-To use the SQLite database, add the following dependency to the project's build.gradle file:
-kotlin
-Copy code
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## Features
+- Users can add and save notes.
+- The titles of saved notes are listed.
+- Users can view the details of a note by clicking on its title.
+
+## Installation
+1. Download or clone the project.
+2. Open Android Studio and import the project.
+3. Install the necessary dependencies and components.
+4. To use the SQLite database, add the following dependency to the `build.gradle` file of the project:
+
+```groovy
 implementation 'androidx.sqlite:sqlite-ktx:2.2.0'
 Run the application on an Android device or emulator.
 Usage
-When the application starts, the main screen is displayed.
+Upon launching the application, the main screen is displayed.
 Click on the "Add Note" button on the main screen to add a new note.
-Enter the note title and details, then click the "Save" button.
-The saved note titles are listed on the main screen.
-By clicking on a note title, you can access the details of that note.
+Enter the title and details of the note, then click the "Save" button.
+The saved note titles will be listed on the main screen.
+Click on a note title to access its details.
 
 Contributing
-Clone this project.
-Make desired changes or add new features.
+Clone this repository.
+Make the desired changes or add new features.
 Create a pull request explaining your changes.
+License
+This project is licensed under the MIT License.
