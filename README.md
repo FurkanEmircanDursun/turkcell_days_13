@@ -15,7 +15,7 @@ This project represents a simple note-taking application using Kotlin programmin
 3. Install the necessary dependencies and components.
 4. To use the SQLite database, add the following dependency to the `build.gradle` file of the project:
 
-```groovy
+
 implementation 'androidx.sqlite:sqlite-ktx:2.2.0'
 Run the application on an Android device or emulator.
 Usage
