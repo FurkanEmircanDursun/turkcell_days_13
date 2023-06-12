@@ -1,36 +1,29 @@
-Kotlin SQLite Not Alma Uygulaması
----------------------------------
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+Kotlin SQLite Note Taking Application
+License
 
-Bu proje, Kotlin programlama dili ve SQLite veritabanını kullanarak basit bir not alma uygulamasını temsil etmektedir. Bu uygulama kullanıcının not eklemesini, notları görüntülemesini ve not başlıklarına tıklayarak ayrıntılarına erişmesini sağlar.
+This project represents a simple note-taking application using Kotlin programming language and SQLite database. This application allows users to add notes, view the list of notes, and access the details of a note by clicking on its title.
 
-Özellikler
-----------
-Kullanıcı not ekleyebilir ve kaydedebilir.
-Kaydedilen notların başlıkları listelenir.
-Kullanıcı bir not başlığına tıkladığında, o notun ayrıntıları görüntülenir.
-
-Kurulum
---------
-1. Projeyi indirin veya kopyalayın.
-2. Android Studio'yu açın ve projeyi içe aktarın.
-3. Gerekli bağımlılıkları ve bileşenleri yükleyin.
-4. SQLite veritabanını kullanabilmek için, projenin `build.gradle` dosyasına aşağıdaki bağımlılığı ekleyin:
-
+Features
+Users can add and save notes.
+The titles of the saved notes are listed.
+When a user clicks on a note title, the details of that note are displayed.
+Installation
+Download or clone the project.
+Open Android Studio and import the project.
+Install the required dependencies and components.
+To use the SQLite database, add the following dependency to the project's build.gradle file:
+kotlin
+Copy code
 implementation 'androidx.sqlite:sqlite-ktx:2.2.0'
+Run the application on an Android device or emulator.
+Usage
+When the application starts, the main screen is displayed.
+Click on the "Add Note" button on the main screen to add a new note.
+Enter the note title and details, then click the "Save" button.
+The saved note titles are listed on the main screen.
+By clicking on a note title, you can access the details of that note.
 
-5. Uygulamayı bir Android cihazında veya emülatörde çalıştırın.
-
-Kullanım
---------
-Uygulama başladığında ana ekran görüntülenir.
-Ana ekran üzerinde "Not Ekle" düğmesine tıklayarak yeni bir not ekleyin.
-Not başlığı ve detayını girin, ardından "Kaydet" düğmesine tıklayın.
-Kaydedilen not başlıkları ana ekranda listelenir.
-Bir not başlığına tıklayarak, o notun ayrıntılarına erişebilirsiniz.
-
-Katkıda Bulunma
----------------
-1. Bu projeyi klonlayın.
-2. İstenilen değişiklikleri yapın veya yeni özellikler ekleyin.
-3. Değişikliklerinizi açıklayan birleştirme isteği (pull request) oluşturun.
+Contributing
+Clone this project.
+Make desired changes or add new features.
+Create a pull request explaining your changes.
